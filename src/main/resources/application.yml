@@ -1,0 +1,12 @@
+logging:
+  level:
+    ROOT: INFO
+    com.geekshow.testcontainersfastrun: INFO
+spring:
+  application:
+    name: Contacts
+  main:
+    web-application-type: reactive
+  data:
+    mongodb:
+      uri: ${MONGO_URI}
